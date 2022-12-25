@@ -15,5 +15,6 @@ class PizzaLoaded extends PizzaState {
   const PizzaLoaded({required this.pizzas});
 
   @override
+  // TODO: implement props
   List<Object> get props => [pizzas];
 }

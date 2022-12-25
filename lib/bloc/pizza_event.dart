@@ -24,5 +24,6 @@ class RemovePizza extends PizzaEvent {
   const RemovePizza(this.pizza);
 
   @override
+  // TODO: implement props
   List<Object> get props => [pizza];
 }
