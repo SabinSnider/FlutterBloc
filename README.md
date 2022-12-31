@@ -1,6 +1,10 @@
 # bloc_pizza_project
 
-A new Flutter project.
+A new bloc implementation Flutter project.
+
+
+#Screenshot
+<Img src ="screenshots/Screenshot1.png" width="300px">
 
 ## Getting Started
 
