@@ -102,35 +102,35 @@ class _HomeScreenState extends State<HomeScreen> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
-            child: const Icon(Icons.local_pizza_outlined),
             backgroundColor: Colors.orange[800],
             onPressed: () {
               context.read<PizzaBloc>().add(AddPizza(Pizza.pizza[0]));
             },
+            child: const Icon(Icons.local_pizza_outlined),
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
-            child: const Icon(Icons.remove),
             backgroundColor: Colors.orange[800],
             onPressed: () {
               context.read<PizzaBloc>().add(RemovePizza(Pizza.pizza[0]));
             },
+            child: const Icon(Icons.remove),
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
-            child: const Icon(Icons.local_pizza),
             backgroundColor: Colors.orange[500],
             onPressed: () {
               context.read<PizzaBloc>().add(AddPizza(Pizza.pizza[1]));
             },
+            child: const Icon(Icons.local_pizza),
           ),
           const SizedBox(height: 10),
           FloatingActionButton(
-            child: const Icon(Icons.remove),
             backgroundColor: Colors.orange[500],
             onPressed: () {
               context.read<PizzaBloc>().add(RemovePizza(Pizza.pizza[1]));
             },
+            child: const Icon(Icons.remove),
           )
         ],
       ),
