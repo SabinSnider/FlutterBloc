@@ -4,7 +4,7 @@ A new bloc implementation Flutter project.
 
 
 #Screenshot
-<Img src ="screenshots/Screenshot1.png" width="300px">
+<Img src ="screenshot/Screenshot1.png" width="300px">
 
 ## Getting Started
 
